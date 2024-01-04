@@ -1,5 +1,44 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+#directory
+issue=tracker
+    > .next
+    V api
+        V issues
+            route.ts
+        V components
+            ErrorMessage.tsx
+        V issues
+            V new
+                page.tsx
+            page.tsx
+        favico.ico
+        globals.css
+        layout.tsx
+        NavBar.tsx
+        page.tsx
+        theme-config.css
+        validationSchemas.ts
+    > node_modules
+    V prisma
+        > migrations
+        client.ts
+        schema.prisma
+    > public
+    .env
+    .eslintrc.json
+    .gitignore
+    next-env.d.ts
+    next.config.js
+    package-lock.json
+    package.json
+    postcss.config.js
+    README.ms
+    tailwind.config.ts
+    tsconfig.json
+
+
 ## Getting Started
 
 First, run the development server:
